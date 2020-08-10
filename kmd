@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+require("./index").kmd().then(
+    data=> {console.log("async result:\n" + data);},
+    err=>  {}
+);
